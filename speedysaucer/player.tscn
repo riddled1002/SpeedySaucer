@@ -4,6 +4,7 @@
 
 [node name="Player" type="RigidBody2D"]
 position = Vector2(553, 88)
+gravity_scale = 0.0
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 texture = ExtResource("1_rhs7i")
