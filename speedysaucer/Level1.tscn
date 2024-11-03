@@ -1,6 +1,7 @@
-[gd_scene load_steps=2 format=3 uid="uid://cemijpdodl5au"]
+[gd_scene load_steps=3 format=3 uid="uid://cemijpdodl5au"]
 
 [ext_resource type="Texture2D" uid="uid://c1hhkmcg3b5s6" path="res://purple.png" id="1_8vdpn"]
+[ext_resource type="PackedScene" uid="uid://bvxx4lrklc3b1" path="res://player.tscn" id="2_xo1wb"]
 
 [node name="Level1" type="Node2D"]
 
@@ -9,3 +10,5 @@ offset_right = 1161.0
 offset_bottom = 657.0
 texture = ExtResource("1_8vdpn")
 stretch_mode = 1
+
+[node name="Player" parent="." instance=ExtResource("2_xo1wb")]
