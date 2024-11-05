@@ -1,9 +1,11 @@
-[gd_scene load_steps=3 format=3 uid="uid://cemijpdodl5au"]
+[gd_scene load_steps=4 format=3 uid="uid://cemijpdodl5au"]
 
 [ext_resource type="Texture2D" uid="uid://c1hhkmcg3b5s6" path="res://purple.png" id="1_8vdpn"]
+[ext_resource type="Script" path="res://level.gd" id="1_wdren"]
 [ext_resource type="PackedScene" uid="uid://bvxx4lrklc3b1" path="res://player.tscn" id="2_xo1wb"]
 
 [node name="Level1" type="Node2D"]
+script = ExtResource("1_wdren")
 
 [node name="Background" type="TextureRect" parent="."]
 z_index = -10
