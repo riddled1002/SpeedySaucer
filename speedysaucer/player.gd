@@ -12,8 +12,7 @@ func _process(delta: float) -> void:
 	
 func test() -> void:
 	#print("I made a function!")
-	print(10)
-	print(10.876)
-	print(5 % 3)
+	var calc = 2 + 3
+	print(calc)
 	
 	
